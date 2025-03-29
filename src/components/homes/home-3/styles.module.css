@@ -1,0 +1,11 @@
+.newsub{
+    position: relative;
+    font-family: var(--tp-ff-body);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px!important;
+    text-transform: capitalize!important;
+    color: var(--tp-text-2);
+    display: inline-block;
+    margin-bottom: 22px;
+  }

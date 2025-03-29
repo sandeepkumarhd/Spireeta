@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+Disallow: /dashboard
+Disallow: /dashboard/*
+Disallow: /login
+
+Host: www.spireeta.com
+
+Sitemap: https://www.spireeta.com/sitemap.xml

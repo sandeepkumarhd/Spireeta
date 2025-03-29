@@ -1,0 +1,333 @@
+.login-bg {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+.login-left Image {
+    width: 100%
+}
+
+.logincontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontainer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/low-angle-shot-high-rise-buildings-clear-sky-frankfurt-germany_181624-30909.jpg?t=st=1721974960~exp=1721978560~hmac=5ac1ac0494641f59edf007ef934ee01de9a07af6046d462a264aba2393b95c1c&w=1060');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.login-left {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    z-index: 1;
+    background-color: aliceblue;
+    width: 30vw;
+    min-width: 100%;
+    min-height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: rgb(13, 132, 149);
+    background: linear-gradient(126deg, rgba(13, 132, 149, 1) 31%, rgba(152, 242, 255, 1) 100%);
+
+}
+
+.login-container>h1 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.form-login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+}
+
+.loginlabel {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #fcfcfc;
+    cursor: text;
+    text-transform: uppercase;
+}
+
+.login-icon {
+    color: #fff;
+}
+
+.logininput {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    height: 18px;
+    border-radius: 12px;
+}
+
+.linehr {
+    margin: 0px;
+    border-top: 2px solid #fff;
+}
+
+.showpass {
+    color: #fcfcfc;
+}
+
+.logininput:focus {
+    outline: none;
+    /* Remove a borda de foco */
+}
+
+.forgot-password {
+    align-self: flex-end;
+    font-size: 16px;
+    border-bottom: 1.5px solid #00754a;
+    text-decoration: none;
+    text-align: end;
+}
+
+.logintext--create-account {
+    color: #006241;
+    font-family: 'Karla';
+}
+
+.btnlogin {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: 2px solid #007190;
+    text-decoration: none;
+    padding: 8px 50px;
+    margin: 10px 0;
+    border-radius: 50px;
+    background-color: #000000;
+    cursor: pointer;
+    width: 200px;
+}
+
+.tp-main-menu-one ul li a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px !important;
+    text-transform: capitalize;
+    border: 1px solid #999 !important;
+    padding: 10px !important;
+    border-radius: 7px;
+    background-image: linear-gradient(90deg, #22D4E6 0%, #1B8D9B 100%);
+    color: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.tp-header-2-bottom-inner-one {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tp-header-2-btn1 {
+    background-image: linear-gradient(90deg, #22D4E6 0%, #1B8D9B 100%);
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.reg-form {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* .ant-table-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+
+.antdCard {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 5px;
+}
+
+.ant-card-head {
+    background-color: #21c7d9 !important;
+    font-size: 18px !important;
+    border-bottom: 1px solid #777777 !important;
+}
+
+.ant-table-tbody>tr:nth-child(odd) {
+    background-color: #f5f5f5;
+    /* background-color: #ffffff; */
+
+    /* Light grey for odd rows */
+}
+
+.ant-table-tbody>tr:nth-child(even) {
+    background-color: #ffffff;
+    /* background-color: #f5f5f5; */
+
+    /* White for even rows */
+}
+
+.tableButtons {
+    /* marginRight: 8 */
+    margin-right: 8px;
+    /* padding: 25px 10px; */
+    /* font-size: 15px; */
+}
+
+.cardfirstDiv {
+    margin-bottom: 16px;
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-wrap: wrap;
+}
+
+.table-admin {
+    border: 1px solid #cbcbcb;
+}
+
+/* Add this to your CSS file or a <style> block */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Optional: Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .ant-table {
+        font-size: 14px;
+        /* Adjust font size if needed */
+    }
+
+    .ant-table .ant-table-thead>tr>th,
+    .ant-table .ant-table-tbody>tr>td {
+        padding: 8px;
+        /* Adjust padding if needed */
+    }
+}
+
+.print {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
+.admin-btn {
+    border: 1px solid #21cdde !important;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.user-dropdown {
+    position: absolute;
+    top: 73%;
+    right: 16px;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* border: 1px solid #21cdde;
+    border-radius: 20px;
+    padding: 5px 10px; */
+.user-dropdown .link {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.user-dropdown .link:hover {
+    background-color: #1da1b0;
+    color: #fff;
+}
+
+.bg-slider {
+
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url("../img/slider-bg-vision.jpg");
+    background-size: cover;
+
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+/* notification.css */
+.custom-toast {
+    font-size: 1.5rem;
+    /* Adjust size as needed */
+    padding: 20px;
+    /* Adjust padding as needed */
+}
+
+.logo-image {
+    width: 140px;
+    height: auto;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.tp-about-3-wrapper {
+    padding-top: 10px;
+}
+
+.colorRedError {
+    color: red !important;
+}
