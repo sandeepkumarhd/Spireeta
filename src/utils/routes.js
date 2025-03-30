@@ -3,8 +3,8 @@ import { apiDelete, apiGet, apiPost, apiPostImage, apiPut } from "./Api";
 import Localstorage from "./storage/Localstorage";
 
 
-const baseURL = process.env.NEXT_PUBLIC_BACKEND_URL;
-// const baseURL = 'http://localhost:5000'
+// const baseURL = process.env.NEXT_PUBLIC_BACKEND_URL;
+const baseURL = 'http://localhost:5000'
 
 // console.log("baseURL***", baseURL)
 
