@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.24.8",
+    "@popperjs/core": "^2.11.8",
     "@reduxjs/toolkit": "^2.2.6",
     "@splidejs/react-splide": "^0.7.12",
     "animate.css": "^4.1.1",
