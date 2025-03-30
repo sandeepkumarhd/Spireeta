@@ -10,6 +10,7 @@ export default function Middleware({ children }) {
     // console.log("userDetails middleware", userDetails)
     const dispatch = useDispatch();
     const router = useRouter();
+    
     const pathname = usePathname()
 
     // console.log("router.pathname middleware", pathname)
