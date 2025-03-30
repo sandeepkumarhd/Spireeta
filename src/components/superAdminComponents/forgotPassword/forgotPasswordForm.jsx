@@ -117,7 +117,7 @@ const ForgotPasswordForm = () => {
     try {
       dispatch(changeLoadingState(true));
       const response = await routes.APIS.resetPassword({
-        email: "Ksandeep15267@gmail.com",
+        email: email,
       }); // Use the local `email` state
       console.log("response", response);
       if (response.status === 200) {
